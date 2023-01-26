@@ -18,4 +18,5 @@ Steps to follow (Assuming that docker is installed and docker daemon is running)
    }
    '
    (to create an index named index-logger. also this elastic instance doesn't require any authentication to connect to)
+ 6. delete index using curl -X DELETE "localhost:9200/index-logger?pretty"
 
